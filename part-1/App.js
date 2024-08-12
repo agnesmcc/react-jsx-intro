@@ -2,6 +2,8 @@ const App = () => {
     return (
         <div>
             <FirstComponent/>
+            <NamedComponent name="Bob"/>
+            <NamedComponent name="Tom"/>
         </div>
     );
 }
